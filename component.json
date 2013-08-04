@@ -1,0 +1,19 @@
+{
+  "name": "sg-is-empty",
+  "repo": "davidtsuji/sg-is-empty",
+  "description": "Checks if a value is empty (null, undefined {}, [], 0, '')",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/type": "*"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
