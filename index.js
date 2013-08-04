@@ -10,7 +10,7 @@ module.exports = function(_value) {
 
 	} else if (type(_value) == 'object') {
 
-		empty = JSON.stringify(_value) == '{}';
+		empty = Object.keys(_value).length == 0
 
 	} else if (type(_value) == 'boolean') {
 

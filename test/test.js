@@ -26,6 +26,9 @@ describe('sg-is-empty test', function(){
 		assert(isEmpty([false]) === false);
 		assert(isEmpty(-2) === false);
 		assert(isEmpty(0.1) === false);
+		assert(isEmpty({a:{b:{}}}) === false);
+		assert(isEmpty({a:function(){}}) === false);
+		assert(isEmpty({a:Boolean}) === false);
 
 		_done();
 
